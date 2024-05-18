@@ -14,6 +14,19 @@ pnpm dev
 bun dev
 ```
 
+## Foundry comands:
+
+```bash
+# compile
+forge compile
+# test
+forge test
+# format
+forge fmt
+# run script
+forge script script/WalletFactory.s.sol --rpc-url $SEPOLIA_RPC_URL --broadcast --verify -vvv --legacy
+```
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
